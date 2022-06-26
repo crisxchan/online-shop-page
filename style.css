@@ -1,0 +1,83 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header, footer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* header */
+header {
+    box-shadow: 0 2px 4px 0 #33333330, 0 2px 16px 0 #33333330;
+    flex-direction: column;
+}
+
+nav {
+    height: 40px;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+.nav-ul {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.nav-li {
+    cursor: pointer;
+    transition: 0.3s;
+    height: 2em;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active-nav {
+    border-bottom: 4px solid black;
+    border-radius: 5px;
+}
+
+/* main */
+main {
+    border: solid black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+/* footer */
+footer {
+    height: 80px;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+.ghlogo {
+    font-size: 30px;
+    color: black;
+}
