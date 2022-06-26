@@ -22,13 +22,14 @@ header, footer {
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 /* header */
 header {
     box-shadow: 0 2px 4px 0 #33333330, 0 2px 16px 0 #33333330;
     flex-direction: column;
+    justify-content: space-around;
+    min-height: 200px;
 }
 
 nav {
@@ -63,15 +64,103 @@ nav {
 
 /* main */
 main {
-    border: solid black;
-    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center; 
 }
 
+/* HOME */
+.main-wrapper {
+    width: 100%;
+}
+
+.main-product {
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.product-div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-div {
+    flex-direction: column;
+    text-align: center;
+    padding-left: 10%;
+}
+
+.right-div {
+    padding-right: 10%;
+}
+
+.product-header {
+    font-size: 4rem;
+}
+
+.product-label {
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+}
+
+.learnMore-btn {
+    cursor: pointer;
+    height: 2.5rem;
+    width: 8rem;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.learnMore-btn:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+.product-img {
+    width: 300px;
+    height: 300px;
+}
+
+/* CONTACT */
+.contact-wrapper {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.sm-brand-contacts {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+}
+
+a, .sm-brand-contacts {
+    text-decoration: none;
+}
+
+.sm-brand-contacts:hover {
+    color: darkkhaki;
+}
+
 /* footer */
 footer {
+    justify-content: center;
     height: 80px;
     gap: 10px;
     font-size: 1rem;
