@@ -1,0 +1,34 @@
+{
+    "productsList": [
+        {
+            "productName": "RASTACLAT",
+            "productLabel": "The cloth of a righteous man or woman.",
+            "bgColorHex": "#F1EFE2",
+            "imgFileName": "rastaclat.png"
+        },
+        {
+            "productName": "NECKLACE",
+            "productLabel": "An ornamental chain worn around the neck.",
+            "bgColorHex": "#C4A47B",
+            "imgFileName": "necklace.png"
+        },
+        {
+            "productName": "PET-TAG",
+            "productLabel": "A pet tag is a small flat tag worn on pets' collars or harnesses.",
+            "bgColorHex": "#519ed6",
+            "imgFileName": "pet-tag.png"
+        },
+        {
+            "productName": "LETTER",
+            "productLabel": "A piece of writing that someone has written.",
+            "bgColorHex": "#CFCAC8",
+            "imgFileName": "letter.png"
+        },
+        {
+            "productName": "STORYBOX",
+            "productLabel": "An enclosed glass-front display containing an object in a thought-provoking way",
+            "bgColorHex": "#AFB8D5",
+            "imgFileName": "shadowbox.png"
+        }
+    ]
+}
